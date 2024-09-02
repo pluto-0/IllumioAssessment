@@ -17,6 +17,7 @@ The output will be written to a file called output.csv in the same directory
 3. No deprecated protocol numbers will be logged, neither will unassigned protocols or protocols used for testing like 253/254
 4. All protocol port lookup combos will be valid and well defined, although some error handling is still implemented for this
 5. The lookup file will not exceed 10,000 mappings, therefore it can fit in a python dictionary without any issues
+6. The first line of the lookup csv will be words, and not an actual mapping, and the program will skip parsing this line
    
 # Notes
 
