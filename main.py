@@ -88,6 +88,16 @@ def write_output(port_protocol_combos, tags):
         write_tags(tags, fp)
         write_combos(port_protocol_combos, fp)
 
+'''
+General structure:
+
+1.) The program first opens the user designated files
+2.) The program parses protocolNums.txt to generate a map from protocol nums to names
+3.) The program parses the user designated lookup file to generate a map from port/protocol combos to tags
+4.) The program parses the logs, counting each port/protocol combo
+5.) The program uses these combos to count the instances of each tag
+6.) The program writes the combos and tags to output.txt and closes the files
+'''
 def main():
     '''
     usage: main.py [lookup_file] [log_file]
