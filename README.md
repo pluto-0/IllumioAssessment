@@ -21,4 +21,8 @@ The output will be written to a file called output.csv in the same directory
 # Notes
 
 1. My main focus when writing this was to have reusable code, hence the handling of each step in a seperate function
-2. I used minimal comments because I find them unnecessary, especially in a simple program like this.  If company style prefferred more comments, such as comments explaining each function at an abstract level, I would be happy to implement this, but currently the low number of comments is intentional.
+2. I used minimal comments because I find them unnecessary, especially in a simple program like this.  If company style preferred more comments, I would be happy to implement them, but currently the low number of comments is intentional.
+
+# Testing
+
+I roughly tested each function as it was written, but I did not do actual unit testing because I think it is unnecessary for a simple program, and writing the tests would take exponentially more time than testing by hand.
